@@ -1,0 +1,38 @@
+.base {
+    background-color: white;
+    color: rgb(17 24 39);
+    font-family: var(--font-noto-sans-jp);
+}
+
+.container {
+    padding: 6rem 1.5rem
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 1535px;
+    text-align: center;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+
+.subtitle {
+    font-size: 1.125rem;
+    line-height: 2rem;
+    max-width: 36rem;
+    margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttons {
+    column-gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 2.5rem;
+}
